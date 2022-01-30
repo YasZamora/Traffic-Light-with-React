@@ -10,3 +10,40 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.stick {
+    background-color: black;
+    width: 20px;
+    height: 100px;
+    margin: auto;
+}
+.container {
+    background-color: black;
+    height: 300px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+.light1 {
+    border-radius:100%;
+    background-color: red;
+    height: 80px;
+    width: 80px;
+}
+.light2 {
+    border-radius:100%;
+    background-color: yellow;
+    height: 80px;
+    width: 80px; 
+}
+.light3 {
+    border-radius:100%;
+    background-color: green;
+    height: 80px;
+    width: 80px;
+   
+}
+.glow {
+    box-shadow: 0 0 20px #4f9;
+}
